@@ -37,7 +37,7 @@ void write_emp_details()
     printf("\n\tEnter new password: ");
     scanf("%s",&e.pass);///  
     if(i==1)
-        fprintf(fptr," %s%s\n",e.user,e.pass); // a space in first index is added (dont know why!)
+        fprintf(fptr," %s%s\n",e.user,e.pass); 
     else
         fprintf(fptr,"%s%s\n",e.user,e.pass);
     i++;
@@ -71,8 +71,7 @@ void view_shop_details()
     fscanf(fp,"%d\n",&max_count);
     fgets(s_name,30,fp);
     fclose(fp);
-    //printf("max count: %d\nShop name: ",max_count);
-    //puts(s_name);   
+      
 }
 
 /**< function to go back to options in between entering new customer details */
@@ -107,7 +106,6 @@ void count_check()
         }
         else
             option_flag=0;
-        //printf("Count %d\n", count);
         int f=go_back();
         if(f==1)
             options();
@@ -136,7 +134,7 @@ void anyone_left()
         if(ch=='Y'||ch=='y')
             if(count!=0)
                 count--;
-       // printf("count %d\n", count);
+       
     }
 }
 
@@ -244,7 +242,7 @@ void view()
 /** @brief main function
  *
  * @param void
- * \return 0
+ * @return 0
  *
  */
 
