@@ -6,7 +6,7 @@
 a) Code Blocks IDE/Visual Studio editor.\
 b) MingW compiler.\
 c) Microsoft word.\
-d) Notepad.\
+d) Notepad.
 
 ### 2 Hardware requirements:
 
