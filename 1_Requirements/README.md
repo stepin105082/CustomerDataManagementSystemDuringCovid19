@@ -3,16 +3,16 @@
 
 ### 1 Software requirements:
 
-a) Code Blocks IDE/Visual Studio editor
-b) MingW compiler
-c) Microsoft word
-d) Notepad
+a) Code Blocks IDE/Visual Studio editor.
+b) MingW compiler.
+c) Microsoft word.
+d) Notepad.
 
 ### 2 Hardware requirements:
 
-a) Operating System: Windows XP or above
-b) Processor: Intel Core - 32 bit or above
-c) RAM: 4GB or above
+| Operating System: |Windows XP or above|
+| Processor: |Intel Core-32 bit or above|
+| RAM: |4GB or above|
 
 ### 3 High Low Level requirements:
 
