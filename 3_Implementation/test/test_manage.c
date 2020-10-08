@@ -47,11 +47,11 @@ int main() {
 
 /* Write all the test functions */
 struct Employee a={"mec","123"};
-
+struct Employee b={"mac","456"};
 void test_login(void) {
   CU_ASSERT(1 == LoginCheck(a.user, a.pass));
- // CU_ASSERT(0 == phone_check(d));
-  
+  CU_ASSERT(0 == LoginCheck(b.user, b.pass));
+    
 }
 
 struct Customer c={.phone="1234567890"};
