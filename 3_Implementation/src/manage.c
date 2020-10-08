@@ -39,9 +39,9 @@ char* local_time()
 
 int phone_check(struct Customer c)  // to check the digits in the phone number
 {
-    if(c.phone[0]==0 || strlen(c.phone)!=10)
-        return 0;
-    return 1;
+    if(strlen(c.phone)==10 && c.phone[0]!=0)
+        return 1;
+    return 0;
 }
 
 int sanitize()                  //sanitization check
