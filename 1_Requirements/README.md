@@ -10,7 +10,7 @@ d) Notepad.
 
 ### 2 Hardware requirements:
 
-|** Description** |**Name**|
+|**Description** |**Name**|
 | -------------|-------------| 
 | Operating System: |Windows/Linux/Mac|
 | Processor: |Intel Core-32 bit or above|
