@@ -10,7 +10,8 @@ src/manage.c\
 
 # All test source files
 TEST_SRC = src/manage.c\
-test/test_manage.c
+test/test_manage.c\
+emp_cred.txt
 
 TEST_OUTPUT = $(BUILD)/Test_$(PROJECT_NAME).out
 
