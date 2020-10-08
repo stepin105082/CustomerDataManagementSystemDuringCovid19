@@ -3,7 +3,7 @@
 
 /* Modify these two lines according to the project */
 #include <manage.h>
-#define PROJECT_NAME    "Customer_Data_Management_System_Covid-19"
+#define PROJECT_NAME   "Customer_Data_Management_System_during_Covid-19"
 
 
 /* Prototypes for all the test functions */
@@ -47,10 +47,12 @@ int main() {
 
 struct Customer c={.phone="1234567890"};
 struct Customer d={.phone="123456"};
+struct Customer e={.phone="0123456789"}
 
 void test_phone(void) {
   CU_ASSERT(1 == phone_check(c));
   CU_ASSERT(0 == phone_check(d));
+  CU_ASSERT(0 == phone_check(e));
 }
 
 void test_temperature(void) {
