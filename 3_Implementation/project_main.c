@@ -48,12 +48,12 @@ void write_emp_details()
 /**@brief function to enter shop details like name and maximum count of allowable persons*/
 void write_shop_details()
 {   
-    system("cls");
+    //system("cls");
     struct shop s;
     printf("\n\n\t\tEnter shop name :");
     //getchar();
     scanf("%[^\n]%*c",&s.shop_name);////
-    printf("\n\t\tEnter allowbale customer count :");
+    printf("\n\t\tEnter allowable customer count :");
     scanf("%d",&s.shop_count);
     FILE *fptr;
     fptr=fopen("shop_details.txt","w");
@@ -102,6 +102,7 @@ void count_check()
         {
             printf("You can enter \n");
             count++;
+            printf("Count: %d",count);
             customer_flag=0;
         }
         else
@@ -140,7 +141,8 @@ void anyone_left()
 
 /** List of options */
 void options()
-{   system("cls");
+{   
+    system("cls");
     int n;
     option_flag=1;
     printf("\n\t\t   Welcome to ");
@@ -167,7 +169,7 @@ void options()
          }
          case 3:
          {
-            system("cls");
+            exit(0);
          }
     }
 }
@@ -186,9 +188,10 @@ void customer_mgmt()             /**< option 1 */
 void new_customer()
 {
     if(count<=5)
-    {
+    {   
+	
         struct Customer c;
-        printf("Enter name:");
+        printf("\nEnter name:");
         getchar();
         gets(c.name);
         printf("Enter phone number:");
@@ -249,7 +252,7 @@ void view()
 
 int main()
 {
-    system("cls");
+    //system("cls");
 
     FILE *f;
     f=fopen("emp_cred.txt","r");
@@ -274,7 +277,7 @@ int main()
     scanf("%s",&e.user);
     printf("\t\t\tPassword : ");
     scanf("%s",&e.pass);
-    system("cls");
+    //system("cls");
     int l=LoginCheck(e.user,e.pass);
     if(l)  //login Successful
     {
