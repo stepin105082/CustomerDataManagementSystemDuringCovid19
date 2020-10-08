@@ -47,7 +47,7 @@ int main() {
 
 struct Customer c={.phone="1234567890"};
 struct Customer d={.phone="123456"};
-struct Customer e={.phone="0123456789"}
+struct Customer e={.phone="0123456789"};
 
 void test_phone(void) {
   CU_ASSERT(1 == phone_check(c));
