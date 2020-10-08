@@ -19,3 +19,8 @@
 |TC_05|	Enter new customer details page:- sanitization check function|Yes|	Returns True|	Returns True|	PASS|
 
 
+
+### OUTPUT
+![Test output](https://github.com/stepin105082/CustomerDataManagementSystemDuringCovid19/blob/master/4_TestPlanAndOutput/test_op.png)
+
+
