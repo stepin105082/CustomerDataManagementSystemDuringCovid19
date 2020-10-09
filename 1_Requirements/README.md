@@ -26,11 +26,12 @@ d) Notepad.
 |HL_05|Customer details|
 
 ## 4 Low Level requirements
-|**ID**|**Description**| 
-|-----|---------------| 
+|ID|Description| 
+|---|---| 
 |LL_01|The employees need to use the username and password provided which is stored in an employee|  
 |LL_02|Temperature check function ensures that the temperature of the customer is below a preset threshold|   
 |LL_03|Sanitization check functions ensures proper sanitization of the customers|  
 |LL_04|The system checks for the total number of persons inside the shop at a time to maintain the social distancing norms| 
 |LL_05|The customer details are stored in a document which can be used as a database|
 |LL_06|The database should be accessible|
+
