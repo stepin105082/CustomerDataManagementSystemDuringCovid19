@@ -67,7 +67,7 @@ void test_sanitize_check(void) {
   CU_ASSERT(1 == sanitize());
   CU_ASSERT(1 == sanitize());
 }
-struct Employee a={"mec","123"}
+struct Employee a={"mec","123"};
 void test_login(void) {
   CU_ASSERT(1 == LoginCheck(a.user, a.pass));
   //CU_ASSERT(1 == LoginCheck());
