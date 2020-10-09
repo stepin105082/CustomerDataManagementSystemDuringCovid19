@@ -69,9 +69,11 @@ void test_sanitize_check(void) {
 }
 
 //struct Employee a={"mec","123"};
-struct Employee b={"mac","456"};
+//struct Employee b={"mac","456"};
+char user[10]="mec";
+char pass[6]="123";
 void test_login(void) {
   //CU_ASSERT(1 == LoginCheck("mec", "123"));
-  CU_ASSERT(0 == LoginCheck(b.user, b.pass));
+  CU_ASSERT(0 == LoginCheck(user, pass));
     
 }
