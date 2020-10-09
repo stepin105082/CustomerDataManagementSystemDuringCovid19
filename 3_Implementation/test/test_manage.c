@@ -8,7 +8,7 @@
 
 /* Prototypes for all the test functions */
 
-void test_login(void);
+static void test_login(void);
 void test_phone(void);
 void test_temperature(void);
 void test_sanitize_check(void);
