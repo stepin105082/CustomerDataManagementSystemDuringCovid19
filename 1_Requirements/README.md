@@ -10,7 +10,7 @@ d) Notepad.
 ## 2 Hardware requirements
 
 |**Description**|**Name**|
-|---------------|-------------------| 
+|----------|-------| 
 |Operating System:|Windows/Linux/Mac|
 |Processor:|Intel Core-32 bit or above|
 |RAM:|4GB or above|
@@ -27,7 +27,7 @@ d) Notepad.
 
 ## 4 Low Level requirements
 |**ID**|**Description**| 
-|------|---------------| 
+|-----|---------------| 
 |LL_01|The employees need to use the username and password provided which is stored in an employee|  
 |LL_02|Temperature check function ensures that the temperature of the customer is below a preset threshold|   
 |LL_03|Sanitization check functions ensures proper sanitization of the customers|  
