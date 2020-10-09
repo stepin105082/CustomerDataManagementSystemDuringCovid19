@@ -52,7 +52,7 @@ void write_shop_details()
     struct shop s;
     printf("\n\n\t\tEnter shop name :");
     //getchar();
-    scanf("%[^\n]%*c",&s.shop_name);////
+    scanf("%29[^\n]%*c",&s.shop_name);////
     printf("\n\t\tEnter allowable customer count :");
     scanf("%d",&s.shop_count);
     FILE *fptr;
@@ -82,7 +82,7 @@ int go_back()
     {
         char ch1;
         printf("\nDo you want to go back to options menu? (y/n) :");
-        scanf("%s",&ch1);
+        scanf("%1s",&ch1);
         if(ch1=='Y' || ch1=='y')
             return 1;
     }
@@ -131,7 +131,7 @@ void anyone_left()
     while((ch=='y' || ch=='Y') && count!=0)
     {
         printf("Has anyone left?");
-        scanf("%s", &ch);
+        scanf("%1s", &ch);
         if(ch=='Y'||ch=='y')
             if(count!=0)
                 count--;
