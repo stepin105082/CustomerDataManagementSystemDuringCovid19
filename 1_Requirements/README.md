@@ -9,27 +9,13 @@ d) Notepad.
 
 ## 2 Hardware requirements
 
-Operating System:  Windows or Linux or Mac\
-Processor       :  Intel Core 32 bit or above\
-RAM             :  4GB or above
+a) Operating System:  Windows or Linux or Mac\
+b) Processor       :  Intel Core 32 bit or above\
+c) RAM             :  4GB or above
 
 ## 3 High Low Level requirements
-
-|ID|Description| 
-|---|----| 
-|HL_01|The system has an employee login|  
-|HL_02|Temperature check system|   
-|HL_03|Sanitization check system|  
-|HL_04|Restricted number of persons at a time| 
-|HL_05|Customer details|
+![HL](https://github.com/stepin105082/stepin/blob/master/hl.png)
 
 ## 4 Low Level requirements
 
-|ID|Description| 
-|---|---| 
-|LL_01|The employees need to use the username and password provided which is stored in an employee|  
-|LL_02|Temperature check function ensures that the temperature of the customer is below a preset threshold|   
-|LL_03|Sanitization check functions ensures proper sanitization of the customers|  
-|LL_04|The system checks for the total number of persons inside the shop at a time to maintain the social distancing norms| 
-|LL_05|The customer details are stored in a document which can be used as a database|
-|LL_06|The database should be accessible|
+![LL](https://github.com/stepin105082/stepin/blob/master/ll.png)
