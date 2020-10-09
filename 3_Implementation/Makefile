@@ -12,13 +12,13 @@ src/manage.c\
 TEST_SRC = src/manage.c\
 test/test_manage.c\
 
-
-TEST_OUTPUT = $(BUILD)/Test_$(PROJECT_NAME).out
-
 # All include folders with header files
-INC	= -Iinc
+INC	= -Iinc\
+
 
 PROJECT_OUTPUT = $(BUILD)/$(PROJECT_NAME).out
+
+TEST_OUTPUT = $(BUILD)/Test_$(PROJECT_NAME).out
 
 # Document files
 DOCUMENTATION_OUTPUT = documentation/html
@@ -30,11 +30,11 @@ $(PROJECT_NAME):all
 .PHONY: run clean test  doc all
 
 all: $(SRC) $(BUILD)
-	gcc $(SRC) $(INC) -o $(PROJECT_OUTPUT).out
+	gcc $(SRC) $(INC) -o $(PROJECT_OUTPUT) -lm
 
 # Call `make run` to run the application
 run:$(PROJECT_NAME)
-	./$(PROJECT_OUTPUT).out
+	./$(PROJECT_OUTPUT)
 
 # Document the code using Doxygen
 doc:
@@ -42,7 +42,7 @@ doc:
 
 # Build and run the unit tests
 test:$(BUILD)
-	gcc $(TEST_SRC) $(INC) -o $(TEST_OUTPUT) -lcunit
+	gcc $(TEST_SRC) $(INC) -o $(TEST_OUTPUT) -lcunit -lm
 	./$(TEST_OUTPUT)
 
 # Remove all the built files, invoke by `make clean`
