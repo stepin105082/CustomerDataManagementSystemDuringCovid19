@@ -46,13 +46,7 @@ int main() {
 
 
 /* Write all the test functions */
-struct Employee a={"mec","123"};
-struct Employee b={"mac","456"};
-void test_login(void) {
-  CU_ASSERT(1 == LoginCheck(a.user, a.pass));
-  CU_ASSERT(0 == LoginCheck(b.user, b.pass));
-    
-}
+
 
 struct Customer c={.phone="1234567890"};
 struct Customer d={.phone="123456"};
@@ -72,4 +66,12 @@ void test_temperature(void) {
 void test_sanitize_check(void) {
   CU_ASSERT(1 == sanitize());
   CU_ASSERT(1 == sanitize());
+}
+
+struct Employee a={"mec","123"};
+struct Employee b={"mac","456"};
+void test_login(void) {
+  CU_ASSERT(1 == LoginCheck(a.user, a.pass));
+  CU_ASSERT(0 == LoginCheck(b.user, b.pass));
+    
 }
