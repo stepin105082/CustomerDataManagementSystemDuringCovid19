@@ -9,11 +9,9 @@ d) Notepad.
 
 ## 2 Hardware requirements
 
-|**Description**|**Name**|
-|----------|-------| 
-|Operating System|Windows or Linux or Mac|
-|Processor|Intel Core 32 bit or above|
-|RAM|4GB or above|
+Operating System:  Windows or Linux or Mac\
+Processor       :  Intel Core 32 bit or above\
+RAM             :  4GB or above
 
 ## 3 High Low Level requirements
 
