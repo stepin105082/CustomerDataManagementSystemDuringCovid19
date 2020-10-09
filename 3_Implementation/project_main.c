@@ -193,8 +193,9 @@ void new_customer()
 	
         struct Customer c;
         printf("\nEnter name:");
-        getchar();
-        gets(c.name);
+        /*getchar();
+        gets(c.name);*/
+	scanf("%19[^\n]%*c", &c.name);
         printf("Enter phone number:");
         scanf("%10s",&c.phone);
         while(!phone_check(c))
