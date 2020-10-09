@@ -74,6 +74,6 @@ char user[10]="mec";
 char pass[6]="123";
 void test_login(void) {
   //CU_ASSERT(1 == LoginCheck("mec", "123"));
-  CU_ASSERT(0 == LoginCheck(user, pass));
+  CU_ASSERT(0 == LoginCheck(*user, *pass));
     
 }
