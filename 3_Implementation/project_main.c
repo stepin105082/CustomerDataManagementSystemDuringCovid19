@@ -259,7 +259,8 @@ int main()
     f=fopen("emp_cred.txt","r");
     if(f==NULL)
         write_emp_details();
-    fclose(f);
+    else
+	fclose(f);
 
     FILE *fp;
     fp=fopen("shop_details.txt","r");
@@ -268,7 +269,8 @@ int main()
         write_shop_details();
         login_flag=1;
     }
-    fclose(fp);
+    else
+    	fclose(fp);
 	
      
     int x=0;
