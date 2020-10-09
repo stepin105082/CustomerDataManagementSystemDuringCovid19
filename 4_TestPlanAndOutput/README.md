@@ -20,7 +20,4 @@
 
 
 
-### OUTPUT
-![Test output](https://github.com/stepin105082/CustomerDataManagementSystemDuringCovid19/blob/master/4_TestPlanAndOutput/test_op.png)
-
-
+### OUTPUT![Test output](https://github.com/stepin105082/CustomerDataManagementSystemDuringCovid19/blob/master/4_TestPlanAndOutput/test_op.png)
