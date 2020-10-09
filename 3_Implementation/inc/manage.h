@@ -31,7 +31,7 @@ struct Employee
 struct Customer
 {
     char name[20];
-    char phone[10];
+    char phone[12];
     char *date;
 };
 
