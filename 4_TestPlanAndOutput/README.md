@@ -16,4 +16,4 @@ Features to be tested\
    |TC_04            |Enter new customer details page:- temperature check function  |The value of temperature=38<sup>o</sup>C|Below 41<sup>o</sup>C:- function returns value 1        |Below 41<sup>o</sup>C:- function returns value 1|PASS      |
    |TC_05            |Enter new customer details page:- sanitization check function |Yes                                     |Returns True                                            |Returns True                                    |PASS      |
 
-### OUTPUT![Test output](https://github.com/stepin105082/CustomerDataManagementSystemDuringCovid19/blob/master/4_TestPlanAndOutput/test_op.png)
+### OUTPUT\![Test output](https://github.com/stepin105082/CustomerDataManagementSystemDuringCovid19/blob/master/4_TestPlanAndOutput/test_op.png)
