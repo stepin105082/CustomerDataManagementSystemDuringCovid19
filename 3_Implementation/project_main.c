@@ -68,9 +68,10 @@ void view_shop_details()
     fp=fopen("shop_details.txt","r+");
     if(fp==NULL)
         printf("\n Failed");
+    else{
     fscanf(fp,"%d\n",&max_count);
     fgets(s_name,30,fp);
-    fclose(fp);
+    fclose(fp);}
       
 }
 
