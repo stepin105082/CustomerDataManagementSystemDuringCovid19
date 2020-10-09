@@ -17,7 +17,7 @@ int LoginCheck(char user[], char pass[])          //Employee login function
         fscanf(fptr, "%[^\n]", buffer);
         if(strcmp(user,buffer)==0)
         {
-            printf("\n\n\n\t\t\tLogin Successful");
+            //printf("\n\n\n\t\t\tLogin Successful");
             fclose(fptr);
             return 1;
         }
