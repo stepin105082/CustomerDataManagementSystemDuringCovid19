@@ -14,7 +14,7 @@ int LoginCheck(char user[], char pass[])          //Employee login function
         fptr=fopen("emp_cred.txt","r");
         while(ch = fgetc(fptr) != EOF)
         {
-        fscanf(fptr, "%[^\n]", buffer);
+        fscanf(fptr, "%39[^\n]", buffer);
         if(strcmp(user,buffer)==0)
         {
             //printf("\n\n\n\t\t\tLogin Successful");
