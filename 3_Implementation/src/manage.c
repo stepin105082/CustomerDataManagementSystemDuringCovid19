@@ -12,7 +12,7 @@ int LoginCheck(char user[], char pass[])          //Employee login function
 	char ch,buffer[40];
         strcat(user,pass);
         fptr=fopen("emp_cred.txt","r");
-        while(ch = fgetc(fptr) != EOF)
+        while(ch = (fgetc(fptr) != EOF))
         {
         fscanf(fptr, "%39[^\n]", buffer);
         if(strcmp(user,buffer)==0)
