@@ -8,7 +8,7 @@
 
 /* Prototypes for all the test functions */
 
-void test_login(void);
+//void test_login(void);
 void test_phone(void);
 void test_temperature(void);
 void test_sanitize_check(void);
@@ -25,7 +25,7 @@ int main() {
 
 
   /* Add your test functions in this format for testing*/
-  CU_add_test(suite, "login", test_login);
+ // CU_add_test(suite, "login", test_login);
   CU_add_test(suite, "phone", test_phone);
   CU_add_test(suite, "temperature", test_temperature);
   CU_add_test(suite, "sanitize", test_sanitize_check);
@@ -68,8 +68,3 @@ void test_sanitize_check(void) {
   CU_ASSERT(1 == sanitize());
 }
 
- void test_login(void) {
-  CU_ASSERT_EQUAL(LoginCheck(char a[10]="mec",char b[]="123"),1);
-  //CU_ASSERT(0 == LoginCheck(*user, *pass));
-    
-}*/
