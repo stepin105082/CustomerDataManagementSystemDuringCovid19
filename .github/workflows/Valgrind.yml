@@ -20,8 +20,6 @@ jobs:
     - name: make test
       run: |
         make test -C 3_Implementation/
-        valgrind ./3_Implementation/build/Test_Customer.out\
-        --leak-check=full\
-         --leak-check=yes
-        
+        valgrind ./3_Implementation/build/Test_Customer.out
+  
         
