@@ -33,9 +33,9 @@ void write_emp_details()
     {
     system("cls");
     printf("\n\tEnter employee %d username: ",i);
-    scanf("%s",&e.user);///
+    scanf("%9s",&e.user);///
     printf("\n\tEnter new password: ");
-    scanf("%s",&e.pass);///  
+    scanf("%5s",&e.pass);///  
     if(i==1)
         fprintf(fptr," %s%s\n",e.user,e.pass); 
     else
@@ -195,11 +195,11 @@ void new_customer()
         getchar();
         gets(c.name);
         printf("Enter phone number:");
-        scanf("%s",&c.phone);
+        scanf("%10s",&c.phone);
         while(!phone_check(c))
         {
             printf("Enter a valid phone number:");
-            scanf("%s",&c.phone);
+            scanf("%10s",&c.phone);
         }
         c.date=local_time();
         FILE *fptr;
@@ -277,9 +277,9 @@ int main()
      if(login_flag==1)
           getchar();
     printf("\n\t\t\tUsername : ");
-    scanf("%s",&e.user);
+    scanf("%9s",&e.user);
     printf("\t\t\tPassword : ");
-    scanf("%s",&e.pass);
+    scanf("%5s",&e.pass);
     //system("cls");
     int l=LoginCheck(e.user,e.pass);
     if(l)  //login Successful
