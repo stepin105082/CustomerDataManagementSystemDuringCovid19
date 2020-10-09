@@ -15,6 +15,7 @@ void test_sanitize_check(void);
 
 /* Start of the application test */
 int main() {
+  struct Employee a={"mec","123"};
 /* Note: Do not edit START*/
   /*Initialize and setup the Test Framework */
   if (CUE_SUCCESS != CU_initialize_registry())
@@ -68,7 +69,7 @@ void test_sanitize_check(void) {
   CU_ASSERT(1 == sanitize());
 }
 
-struct Employee a={"mec","123"};
+
 //struct Employee b={"mac","456"};
 
 void test_login(void) {
