@@ -72,7 +72,7 @@ struct Employee a={"mec","123"};
 //struct Employee b={"mac","456"};
 
 void test_login(void) {
-  CU_ASSERT(1 == LoginCheck(a.user, a.pass));
+  CU_ASSERT_EQUAL((LoginCheck(a.user, a.pass)),1);
   //CU_ASSERT(0 == LoginCheck(*user, *pass));
     
 }
