@@ -11,7 +11,7 @@ d) Notepad.
 
 |**Description**|**Name**|
 |----------|-------| 
-|Operating System:|Windows/Linux/Mac|
+|Operating System:|Windows or Linux or Mac|
 |Processor:|Intel Core-32 bit or above|
 |RAM:|4GB or above|
 
