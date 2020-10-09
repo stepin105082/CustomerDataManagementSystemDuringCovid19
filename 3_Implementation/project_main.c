@@ -28,7 +28,7 @@ void write_emp_details()
     fptr=fopen("emp_cred.txt","w");
     printf("\n\tEnter number of employees : ");
     scanf("%d",&n);
-    getchar();
+    //getchar();
     while(i<=n)
     {
     system("cls");
