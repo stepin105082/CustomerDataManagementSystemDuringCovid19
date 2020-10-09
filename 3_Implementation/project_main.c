@@ -268,6 +268,7 @@ int main()
         login_flag=1;
     }
     fclose(fp);
+	fp=NULL;
      
     int x=0;
     struct Employee e;
