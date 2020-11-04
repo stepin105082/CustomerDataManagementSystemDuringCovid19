@@ -5,7 +5,6 @@
 #include <manage.h>
 #define PROJECT_NAME   "Customer_Data_Management_System_during_Covid-19"
 
-
 /* Prototypes for all the test functions */
 
 void test_login(void);
@@ -68,7 +67,6 @@ void test_sanitize_check(void) {
   CU_ASSERT(1 == sanitize());
 }
 
-struct Employee a={"mec","123"};
 
 int testlogin(struct Employee a)
 {
@@ -77,6 +75,7 @@ int testlogin(struct Employee a)
 } 
 
 void test_login(void) {
+  struct Employee a ={.user[]="mec". .pass[]="123"}
   testlogin(a);
   //CU_ASSERT_PTR_EQUAL(LoginCheck(a.user, a.pass));
   //CU_ASSERT(1 == LoginCheck());
