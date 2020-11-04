@@ -281,9 +281,9 @@ int main()
      if(login_flag==1)
           getchar();
     printf("\n\t\t\tUsername : ");
-    scanf("%9s",&e.user);
+    scanf("%9s",e.user);
     printf("\t\t\tPassword : ");
-    scanf("%5s",&e.pass);
+    scanf("%5s",e.pass);
     //system("cls");
     int l=LoginCheck(e.user,e.pass);
     if(l)  //login Successful

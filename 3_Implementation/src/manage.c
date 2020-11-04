@@ -27,6 +27,13 @@ int LoginCheck(char user[], char pass[])          //Employee login function
     return 0;
 }
 
+int testlogin()
+{
+  struct Employee a ={.user="mec",.pass="123"};
+  int i= LoginCheck(a.user, a.pass);
+  return i;
+}
+
 
 char* local_time()
 {

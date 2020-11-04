@@ -71,8 +71,7 @@ void test_sanitize_check(void) {
 
 
 void test_login(void) {
-  testlogin();
   //CU_ASSERT_PTR_EQUAL(LoginCheck(a.user, a.pass));
-  //CU_ASSERT(1 == LoginCheck());
+  CU_ASSERT(1 == testlogin());
 }
 
