@@ -29,8 +29,8 @@ int LoginCheck(char user[], char pass[])          //Employee login function
 
 int testlogin()
 {
-  struct Employee a ={.user="mec",.pass="123"};
-  int i= LoginCheck(a.user, a.pass);
+  char a[]="mec", b[]="123";
+  int i= LoginCheck(a, b);
   return i;
 }
 
