@@ -27,12 +27,12 @@ int LoginCheck(char user[], char pass[])          //Employee login function
     return 0;
 }
 
-int testlogin()
+/*int testlogin()
 {
   char a[4]="mec", b[4]="123";
   int i= LoginCheck(a, b);
   return i;
-}
+}*/
 
 
 char* local_time()

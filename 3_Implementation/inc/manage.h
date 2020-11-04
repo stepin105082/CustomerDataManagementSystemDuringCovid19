@@ -42,8 +42,7 @@ struct Customer
  */
 int LoginCheck(char user[], char pass[]);
 
- 
-int testlogin();
+
  
 /**
  * @brief function to provide the local time and date
