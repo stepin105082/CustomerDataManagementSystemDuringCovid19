@@ -29,7 +29,7 @@ int LoginCheck(char user[], char pass[])          //Employee login function
 
 int testlogin()
 {
-  char a[]="mec", b[]="123";
+  char a[4]="mec", b[4]="123";
   int i= LoginCheck(a, b);
   return i;
 }
