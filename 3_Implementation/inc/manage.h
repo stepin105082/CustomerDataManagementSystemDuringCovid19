@@ -42,6 +42,14 @@ struct Customer
  */
 int LoginCheck(char user[], char pass[]);
 
+
+ 
+int testlogin()
+{
+  struct Employee a ={.user="mec",.pass="123"};
+  int i= LoginCheck(a.user, a.pass);
+  return i;
+} 
 /**
  * @brief function to provide the local time and date
  * @return local time and date
