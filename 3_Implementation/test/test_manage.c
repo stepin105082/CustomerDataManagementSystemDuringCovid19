@@ -75,7 +75,7 @@ int testlogin(struct Employee a)
 } 
 
 void test_login(void) {
-  struct Employee a ={.user[]="mec". .pass[]="123"};
+  struct Employee a ={.user="mec". .pass="123"};
   testlogin(a);
   //CU_ASSERT_PTR_EQUAL(LoginCheck(a.user, a.pass));
   //CU_ASSERT(1 == LoginCheck());
