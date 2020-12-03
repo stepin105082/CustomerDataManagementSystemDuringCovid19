@@ -2,7 +2,7 @@
 * project_main.c
 *@brief Main file for Customer Management System
 */
-#include "manage.h"
+# include "manage.h"
 
 static int count=0;
 static int max_count=0;   
